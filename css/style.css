@@ -124,47 +124,25 @@ nav a:hover {
 
 /* Products */
 .product {
-  width: 300px;
+  width: 250px;
   border-radius: 5px;
   position: relative;
   margin: 20px 0;
+  text-align: center;
+}
+.product small{
+    color: gray;
 }
 .product img {
-  width: 300px;
+  width: 250px;
 }
 .product-name {
   font-weight: 600;
   color: #667a7b;
-  margin-top: 20px;
 }
-.ratings {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  color: #eeab00;
-}
-.sale {
-  position: absolute;
-  background-color: #bbffbb;
-  padding: 2px 8px;
-  border-radius: 50px;
-  top: 20px;
-  left: 20px;
-}
-.ratings small {
-  font-size: 12px;
-  color: gray;
-  margin: 10px 0;
-}
+
 .price {
-  display: flex;
-  gap: 30px;
   font-weight: 500;
-}
-.compare-at-price {
-  color: gray;
-  text-decoration: line-through;
-  font-weight: 400;
 }
 .img {
   text-align: center;
@@ -214,5 +192,5 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
-  margin: 20px;
+  margin: 20px 50px;
 }
